@@ -69,8 +69,16 @@ input[type="text"] {
 input[type="text"]:hover {
     cursor: pointer;
     border: 1px solid var(--color-purple);
-
 }
+p.error{
+    margin: 0px;
+    margin-top: 3px;
+    font-size: 0.55rem;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--color-light-red);
+}
+
 
 .purple {
     color: var(--color-purple);
