@@ -27,7 +27,7 @@ function calculateAge() {
 
       hasErrors = true;
     } else {
-      errors[i].innerHTML = "";
+      errors[i].innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;";
       labels[i].style.color = "";
       document.getElementById(labels[i].htmlFor).style.border = '';
     }
@@ -78,7 +78,7 @@ function calculateAge() {
   
   if ( monthNum < 1 || monthNum > 12) {
     hasErrors = true;
-    errors[1].innerHTML = "Must be a valid month";
+    errors[1].innerHTML = "Enter valid month";
     labels[1].style.color = "red";
     document.getElementById('month').style.border = '1px solid #ff8c8c';  
 
